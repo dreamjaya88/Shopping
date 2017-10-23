@@ -1,11 +1,6 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Web.Mvc;
-using Microsoft.VisualStudio.TestTools.UnitTesting;
-using ShoppingCart.App;
+﻿using Microsoft.VisualStudio.TestTools.UnitTesting;
 using ShoppingCart.App.Controllers;
+using System.Web.Mvc;
 
 namespace ShoppingCart.App.Tests.Controllers
 {
@@ -23,7 +18,6 @@ namespace ShoppingCart.App.Tests.Controllers
 
             // Assert
             Assert.IsNotNull(result);
-            Assert.IsNotNull(result.Model);
         }
 
         [TestMethod]
