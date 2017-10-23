@@ -23,6 +23,7 @@ namespace ShoppingCart.App.Tests.Controllers
 
             // Assert
             Assert.IsNotNull(result);
+            Assert.IsNotNull(result.Model);
         }
 
         [TestMethod]
